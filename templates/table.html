@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Simple tables</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
+<div class=page>
+  <h1>Youtube_Scrapper</h1>
+  {% for table in tables %}
+    <h2>{{titles[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--    <head>-->
+<!--        <title> Table </title>-->
+<!--    </head>-->
+<!--    <body>-->
+<!--        <div align="center">-->
+<!--            <table>-->
+<!--                <h1>-->
+<!--                &lt;!&ndash;Displaying the converted table&ndash;&gt;-->
+<!--                     {% for table in tables %}-->
+<!--                    <h2>{{titles[loop.index]}}</h2>-->
+<!--                    {{ table|safe }}-->
+<!--                    {% endfor %}-->
+<!--                </h1>-->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </body>-->
+<!--</html>-->
