@@ -1,0 +1,2 @@
+2022-09-10 03:32:27,493 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 03:32:27] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 03:32:27,569 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 03:32:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
