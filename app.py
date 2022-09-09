@@ -21,10 +21,9 @@ def index():
             n = 49
             scraper = YoutubeScrapper(url=request.form['content'],n=n,driver_loc=driver_loc)
             scraper.final_process()
-            df = pd.DataFrame({'title': scraper.title, 'thumbnail': scraper.nail, 'video_link': scraper.vlink, 'views': scraper.views,
-             'likes': scraper.likes,'no_comments':scraper.len_comment})
+            df = pd.DataFrame({'title': scraper.title, 'thumbnail': scraper.nail, 'video_link': scraper.vlink, 'views': scraper.views,'likes': scraper.likes,'no_comments':scraper.len_comment})
             df1 = pd.DataFrame(zip(scraper.normal_commenter, scraper.comments), columns=['commentor', "comment"])
-            # result=scraper.title
+
             print('Result:-')
             print(df,request.form['content'])
             return render_template('table.html',tables=[df.to_html(),df1.to_html()], titles=["","Video_Details","Comment_Details"])
