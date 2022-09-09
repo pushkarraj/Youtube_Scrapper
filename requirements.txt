@@ -28,14 +28,14 @@ Jinja2==3.1.2
 keyring==23.9.1
 MarkupSafe==2.1.1
 mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+#mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
 mkl-service==2.4.0
 more-itertools==8.14.0
-numexpr @ file:///C:/Windows/Temp/abs_e2036a32-9fe9-47f3-a04c-dbb1c232ba4b334exiur/croots/recipe/numexpr_1656940304835/work
-numpy @ file:///C:/Windows/Temp/abs_2a1e1vbeag/croots/recipe/numpy_and_numpy_base_1659432712056/work
+#numexpr @ file:///C:/Windows/Temp/abs_e2036a32-9fe9-47f3-a04c-dbb1c232ba4b334exiur/croots/recipe/numexpr_1656940304835/work
+numpy==1.23.3
 oscrypto==1.3.0
 outcome==1.2.0
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+#packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas==1.4.4
 pipreqs==0.4.11
 pluggy==1.0.0
@@ -47,15 +47,15 @@ pycryptodomex==3.15.0
 PyJWT==2.4.0
 pymongo==4.2.0
 pyOpenSSL==22.0.0
-pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+#pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
 PySocks==1.7.1
 pytest==7.1.3
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+#python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz==2022.2.1
 pywin32-ctypes==0.2.0
 requests==2.28.1
 selenium==4.4.3
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+#six @ file:///tmp/build/80754af9/six_1644875935023/work
 sniffio==1.3.0
 snowflake-connector-python==2.7.12
 sortedcontainers==2.4.0
