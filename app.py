@@ -2,18 +2,21 @@ import logging
 
 from youtube_scrapper_test import YoutubeScrapper
 from flask import Flask, render_template, request,jsonify
+from flask_cors import CORS,cross_origin
 import pandas as pd
 
 
 app = Flask(__name__)  # initialising the flask
 
 
-@app.route('/', methods=['GET', 'POST']) # To render Homepage
+@app.route('/', methods=['GET']) # To render Homepage
+@cross_origin()
 def home_page():
     return render_template('index.html')
 
 
 @app.route('/scrap', methods=['GET','POST']) # route with allowed methods as POST and GET
+@cross_origin()
 def index():
     if request.method == 'POST':
         try:
