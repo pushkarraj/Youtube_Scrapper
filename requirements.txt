@@ -1,72 +1,8 @@
-asn1crypto==1.5.1
-async-generator==1.10
-attrs==22.1.0
 beautifulsoup4==4.11.1
-Bottleneck==1.3.5
-bs4==0.0.1
-certifi==2022.6.15.1
-cffi==1.15.1
-charset-normalizer==2.1.1
-click==8.1.3
-colorama==0.4.5
-cramjam==2.5.0
-cryptography==36.0.2
-dnspython==2.2.1
-docopt==0.6.2
-fastparquet==0.8.3
-filelock==3.8.0
 Flask==2.2.2
-fsspec==2022.8.2
-greenlet==1.1.3
-h11==0.13.0
-idna==3.3
-importlib-metadata==4.12.0
-iniconfig==1.1.1
-itsdangerous==2.1.2
-jaraco.classes==3.2.2
-Jinja2==3.1.2
-keyring==23.9.1
-MarkupSafe==2.1.1
-mkl-fft==1.3.1
-#mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
-mkl-service==2.4.0
-more-itertools==8.14.0
-#numexpr @ file:///C:/Windows/Temp/abs_e2036a32-9fe9-47f3-a04c-dbb1c232ba4b334exiur/croots/recipe/numexpr_1656940304835/work
-numpy
-oscrypto==1.3.0
-outcome==1.2.0
-#packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas==1.4.4
-pipreqs==0.4.11
-pluggy==1.0.0
-protobuf==3.20.1
-py==1.11.0
-pyarrow==8.0.0
-pycparser==2.21
-pycryptodomex==3.15.0
-PyJWT==2.4.0
 pymongo==4.2.0
-pyOpenSSL==22.0.0
-#pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
-PySocks==1.7.1
-pytest==7.1.3
-#python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz==2022.2.1
-pywin32-ctypes==0.2.0
 requests==2.28.1
 selenium==4.4.3
-#six @ file:///tmp/build/80754af9/six_1644875935023/work
-sniffio==1.3.0
-snowflake-connector-python==2.7.12
-sortedcontainers==2.4.0
-soupsieve==2.3.2.post1
-tomli==2.0.1
-trio==0.21.0
-trio-websocket==0.9.2
-typing_extensions==4.3.0
-urllib3==1.26.12
-Werkzeug==2.2.2
-wincertstore==0.2
-wsproto==1.2.0
-yarg==0.1.9
-zipp==3.8.1
+snowflake==0.0.3
+snowflake_connector_python==2.7.12
