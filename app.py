@@ -15,7 +15,7 @@ def home_page():
 
 @app.route('/scrap', methods=['GET','POST']) # route with allowed methods as POST and GET
 def index():
-    if request.method == 'GET':
+    if request.method == 'POST':
         try:
             driver_loc = ".\chromedriver.exe"
             n = 10
