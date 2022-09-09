@@ -17,7 +17,7 @@ def home_page():
 def index():
     if request.method == 'POST':
         try:
-            driver_loc = r"C:\Users\dnsingh\Downloads\Compressed\chromedriver_win32\chromedriver.exe"
+            driver_loc = ".\chromedriver.exe"
             n = 49
             scraper = YoutubeScrapper(url=request.form['content'],n=n,driver_loc=driver_loc)
             scraper.final_process()
