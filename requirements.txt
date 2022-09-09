@@ -7,3 +7,4 @@ requests==2.28.1
 selenium==4.4.3
 snowflake==0.0.3
 snowflake_connector_python==2.7.12
+gunicorn
