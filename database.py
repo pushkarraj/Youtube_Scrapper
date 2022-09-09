@@ -1,6 +1,6 @@
 import logging
 
-import snowflake.connector
+from snowflake.connector import connect
 from snowflake.connector.pandas_tools import write_pandas
 import pandas as pd
 import gridfs
@@ -11,7 +11,7 @@ import os
 
 
 def snowflakes(dataframe,table_name,schema):
-    ctx = snowflake.connector.connect(
+    ctx = connect(
     user='pushkar',
     password='!Push_94302!',
     account='qf98265.ap-southeast-1'
