@@ -24,8 +24,8 @@ class configuration():
             options.add_argument("--disable-dev-shm-usage")
             options.add_argument("--disable-gpu")
             options.page_load_strategy = 'eager'
-            service = Service(executable_path=os.environ.get("CHROMEDRIVER_PATH"))
-            #service = Service(executable_path=self.driver_loc)
+            #service = Service(executable_path=os.environ.get("CHROMEDRIVER_PATH"))
+            service = Service(executable_path=self.driver_loc)
             driver = webdriver.Chrome(service=service, options=options)
             driver.delete_all_cookies()
             driver.set_page_load_timeout(30)
