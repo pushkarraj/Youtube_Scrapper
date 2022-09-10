@@ -100,3 +100,7 @@ Backtrace:
 2022-09-10 05:15:02,745 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
 2022-09-10 05:15:02,746 INFO snowflake.connector.connection Setting use_openssl_only mode to False
 2022-09-10 05:16:17,246 WARNING snowflake.connector.vendored.urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000002D25554CDF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')': /session/v1/login-request?request_id=ce628ff9-7813-4f81-8da9-7c143a8c12ed&request_guid=c8a8d86e-4015-4bf2-abea-feb411d060e2
+2022-09-10 11:34:08,085 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:34:08] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 11:34:08,160 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:34:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 11:43:14,020 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:43:14] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 11:43:14,049 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:43:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
