@@ -8,7 +8,7 @@ import pandas as pd
 app = Flask(__name__)  # initialising the flask
 
 
-@app.route('/', methods=['GET']) # To render Homepage
+@app.route('/', methods=['GET','POST']) # To render Homepage
 @cross_origin()
 def home_page():
     return render_template('index.html')
@@ -20,7 +20,7 @@ def index():
     if request.method == 'POST':
         try:
             driver_loc = ".\chromedriver.exe"
-            n = 10
+            n = 2
             scraper = YoutubeScrapper(url=request.form['content'],n=n,driver_loc=driver_loc)
             scraper.final_process()
             df = pd.DataFrame({'title': scraper.title, 'thumbnail': scraper.nail, 'video_link': scraper.vlink, 'views': scraper.views,'likes': scraper.likes,'no_comments':scraper.len_comment})
