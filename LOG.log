@@ -1,2 +1,102 @@
 2022-09-10 03:32:27,493 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 03:32:27] "POST /scrap HTTP/1.1" 200 -
 2022-09-10 03:32:27,569 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 03:32:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 04:56:26,573 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 04:56:26,573 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 04:56:26,573 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-10 04:56:43,384 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 04:56:43,572 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:43,572 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-10 04:56:43,769 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:43,769 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 04:56:43,991 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:43,991 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-10 04:56:44,536 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:44,536 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 04:56:44,657 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:44,657 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 04:56:44,818 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:44,924 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 04:56:45,962 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:47,362 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "yfoqy" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 04:56:47,511 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:47,511 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"vqvhk"', file_form...]
+2022-09-10 04:56:50,030 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:50,034 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-10 04:56:50,188 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:50,189 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "yfoqy"]
+2022-09-10 04:56:50,322 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:50,323 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-10 04:56:53,467 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:56:53,467 INFO snowflake.connector.connection closed
+2022-09-10 04:56:53,554 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 04:56:54,323 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 04:56:54,324 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 04:57:06,139 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 04:57:06,341 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:06,342 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-10 04:57:06,481 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:06,482 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 04:57:06,617 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:06,617 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-10 04:57:07,142 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:07,143 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 04:57:07,266 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:07,266 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 04:57:07,449 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:07,458 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 04:57:08,472 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:10,054 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "vudhb" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 04:57:10,201 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:10,202 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"mldur"', file_form...]
+2022-09-10 04:57:10,849 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:10,849 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-10 04:57:11,004 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:11,004 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "vudhb"]
+2022-09-10 04:57:11,142 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:11,142 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-10 04:57:12,274 INFO snowflake.connector.cursor query execution done
+2022-09-10 04:57:12,274 INFO snowflake.connector.connection closed
+2022-09-10 04:57:12,364 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 04:57:17,798 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 04:57:17] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 04:57:17,838 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 04:57:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 05:10:55,966 INFO root Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=105.0.5195.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x003D78B3+2193587]
+	Ordinal0 [0x00370681+1771137]
+	Ordinal0 [0x002841A8+803240]
+	Ordinal0 [0x00280918+788760]
+	Ordinal0 [0x0027781D+751645]
+	Ordinal0 [0x00278450+754768]
+	Ordinal0 [0x00277A2A+752170]
+	Ordinal0 [0x00276FAF+749487]
+	Ordinal0 [0x00275E94+745108]
+	Ordinal0 [0x0027636D+746349]
+	Ordinal0 [0x00285974+809332]
+	Ordinal0 [0x002DE18D+1171853]
+	Ordinal0 [0x002CD7AC+1103788]
+	Ordinal0 [0x002DDAE2+1170146]
+	Ordinal0 [0x002CD5C6+1103302]
+	Ordinal0 [0x002A77E0+948192]
+	Ordinal0 [0x002A86E6+952038]
+	GetHandleVerifier [0x00680CB2+2738370]
+	GetHandleVerifier [0x006721B8+2678216]
+	GetHandleVerifier [0x004617AA+512954]
+	GetHandleVerifier [0x00460856+509030]
+	Ordinal0 [0x0037743B+1799227]
+	Ordinal0 [0x0037BB68+1817448]
+	Ordinal0 [0x0037BC55+1817685]
+	Ordinal0 [0x00385230+1856048]
+	BaseThreadInitThunk [0x769F6739+25]
+	RtlGetFullPathName_UEx [0x779590AF+1215]
+	RtlGetFullPathName_UEx [0x7795907D+1165]
+
+2022-09-10 05:10:58,050 ERROR root All arrays must be of the same length
+2022-09-10 05:10:58,052 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 05:10:58] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 05:13:30,019 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 05:13:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 05:13:30,020 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 05:13:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 05:15:02,745 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 05:15:02,745 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 05:15:02,746 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-10 05:16:17,246 WARNING snowflake.connector.vendored.urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000002D25554CDF0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')': /session/v1/login-request?request_id=ce628ff9-7813-4f81-8da9-7c143a8c12ed&request_guid=c8a8d86e-4015-4bf2-abea-feb411d060e2
