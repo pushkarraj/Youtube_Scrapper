@@ -148,3 +148,13 @@ Backtrace:
 2022-09-10 12:25:10,871 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF4B20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6
 2022-09-10 12:25:14,947 ERROR root All arrays must be of the same length
 2022-09-10 12:25:14,948 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:25:14] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:27:45,487 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:27:45] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:27:45,523 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:27:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 12:34:17,283 INFO root Message: 
+
+2022-09-10 12:34:19,316 ERROR root All arrays must be of the same length
+2022-09-10 12:34:19,316 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:34:19] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:35:48,392 INFO root Message: 
+
+2022-09-10 12:35:50,431 ERROR root All arrays must be of the same length
+2022-09-10 12:35:50,432 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:35:50] "POST /scrap HTTP/1.1" 200 -

@@ -126,7 +126,7 @@ class YoutubeScrapper(configuration):
                 print(i)
                 driver.get(self.vlink[i])
                 time.sleep(1)  # dynamic wating needed.
-                driver.execute_script("document.body.style.zoom = '0.25'")
+                driver.execute_script("document.body.style.zoom = '0.1'")
                 wait.until(EC.visibility_of_any_elements_located((By.TAG_NAME, "ytd-comment-thread-renderer")))
                 comment_box_old = driver.find_elements(By.TAG_NAME, "ytd-comment-thread-renderer")
                 driver.execute_script("arguments[0].scrollIntoView();", comment_box_old[-1])
