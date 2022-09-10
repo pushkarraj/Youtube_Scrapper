@@ -156,8 +156,8 @@ class YoutubeScrapper(configuration):
                     self.normal_commenter.append(self.commenter(c_box[i]))
                     self.comments.append(self.comment_scrape(c_box[i]))
 
-                driver.switch_to.new_window("tab")
-                #driver.quit()
+                #driver.switch_to.new_window("tab")
+                driver.quit()
         except Exception as e:
             logging.info(str(e))
 
