@@ -28,8 +28,8 @@ class configuration():
             #service = Service(executable_path=self.driver_loc)
             driver = webdriver.Chrome(service=service, options=options)
             driver.delete_all_cookies()
-            driver.set_page_load_timeout(20)
-            driver.set_script_timeout(20)
+            driver.set_page_load_timeout(30)
+            driver.set_script_timeout(30)
             return driver
         except Exception as e:
             logging.error("Driver Initialization Failed")

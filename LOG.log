@@ -158,3 +158,232 @@ Backtrace:
 
 2022-09-10 12:35:50,431 ERROR root All arrays must be of the same length
 2022-09-10 12:35:50,432 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:35:50] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:37:47,136 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:37:47] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:37:47,233 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:37:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 13:10:48,088 INFO root Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x011878B3+2193587]
+	Ordinal0 [0x01120681+1771137]
+	Ordinal0 [0x01034070+802928]
+	Ordinal0 [0x010574BD+947389]
+	Ordinal0 [0x010586E6+952038]
+	GetHandleVerifier [0x01430CB2+2738370]
+	GetHandleVerifier [0x014221B8+2678216]
+	GetHandleVerifier [0x012117AA+512954]
+	GetHandleVerifier [0x01210856+509030]
+	Ordinal0 [0x0112743B+1799227]
+	Ordinal0 [0x0112BB68+1817448]
+	Ordinal0 [0x0112BC55+1817685]
+	Ordinal0 [0x01135230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 13:10:50,117 ERROR root All arrays must be of the same length
+2022-09-10 13:10:50,118 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:10:50] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:11:46,079 INFO root Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x011878B3+2193587]
+	Ordinal0 [0x01120681+1771137]
+	Ordinal0 [0x01034070+802928]
+	Ordinal0 [0x010574BD+947389]
+	Ordinal0 [0x010586E6+952038]
+	GetHandleVerifier [0x01430CB2+2738370]
+	GetHandleVerifier [0x014221B8+2678216]
+	GetHandleVerifier [0x012117AA+512954]
+	GetHandleVerifier [0x01210856+509030]
+	Ordinal0 [0x0112743B+1799227]
+	Ordinal0 [0x0112BB68+1817448]
+	Ordinal0 [0x0112BC55+1817685]
+	Ordinal0 [0x01135230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 13:11:48,114 ERROR root All arrays must be of the same length
+2022-09-10 13:11:48,115 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:11:48] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:14:53,191 INFO root Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x011878B3+2193587]
+	Ordinal0 [0x01120681+1771137]
+	Ordinal0 [0x01034070+802928]
+	Ordinal0 [0x010574BD+947389]
+	Ordinal0 [0x010586E6+952038]
+	GetHandleVerifier [0x01430CB2+2738370]
+	GetHandleVerifier [0x014221B8+2678216]
+	GetHandleVerifier [0x012117AA+512954]
+	GetHandleVerifier [0x01210856+509030]
+	Ordinal0 [0x0112743B+1799227]
+	Ordinal0 [0x0112BB68+1817448]
+	Ordinal0 [0x0112BC55+1817685]
+	Ordinal0 [0x01135230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 13:14:55,208 ERROR root All arrays must be of the same length
+2022-09-10 13:14:55,209 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:14:55] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:17:44,657 INFO root Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x011878B3+2193587]
+	Ordinal0 [0x01120681+1771137]
+	Ordinal0 [0x01034070+802928]
+	Ordinal0 [0x010574BD+947389]
+	Ordinal0 [0x010586E6+952038]
+	GetHandleVerifier [0x01430CB2+2738370]
+	GetHandleVerifier [0x014221B8+2678216]
+	GetHandleVerifier [0x012117AA+512954]
+	GetHandleVerifier [0x01210856+509030]
+	Ordinal0 [0x0112743B+1799227]
+	Ordinal0 [0x0112BB68+1817448]
+	Ordinal0 [0x0112BC55+1817685]
+	Ordinal0 [0x01135230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 13:17:46,680 ERROR root All arrays must be of the same length
+2022-09-10 13:17:46,681 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:17:46] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:19:07,955 INFO root Message: invalid session id
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x011878B3+2193587]
+	Ordinal0 [0x01120681+1771137]
+	Ordinal0 [0x01034070+802928]
+	Ordinal0 [0x010574BD+947389]
+	Ordinal0 [0x010586E6+952038]
+	GetHandleVerifier [0x01430CB2+2738370]
+	GetHandleVerifier [0x014221B8+2678216]
+	GetHandleVerifier [0x012117AA+512954]
+	GetHandleVerifier [0x01210856+509030]
+	Ordinal0 [0x0112743B+1799227]
+	Ordinal0 [0x0112BB68+1817448]
+	Ordinal0 [0x0112BC55+1817685]
+	Ordinal0 [0x01135230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 13:19:09,979 ERROR root All arrays must be of the same length
+2022-09-10 13:19:09,979 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:19:09] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:20:59,624 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 13:20:59,624 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 13:20:59,624 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-10 13:21:05,287 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 13:21:05,506 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:05,506 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:05,940 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:05,940 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:06,155 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:06,156 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-10 13:21:06,545 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:06,545 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:06,757 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:06,757 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 13:21:06,998 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:10,454 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 13:21:11,686 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:13,788 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "cclgt" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 13:21:14,076 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:14,077 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"sdijw"', file_form...]
+2022-09-10 13:21:16,745 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:16,756 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-10 13:21:16,982 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:16,982 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "cclgt"]
+2022-09-10 13:21:17,196 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:17,197 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-10 13:21:18,380 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:18,380 INFO snowflake.connector.connection closed
+2022-09-10 13:21:18,555 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 13:21:21,013 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 13:21:21,014 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 13:21:21,991 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 13:21:22,257 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:22,257 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:22,527 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:22,527 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:22,816 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:22,816 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-10 13:21:23,148 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:23,148 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-10 13:21:23,362 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:23,362 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 13:21:23,622 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:23,625 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 13:21:26,147 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:28,022 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "rgbvn" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 13:21:28,311 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:28,311 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"royqy"', file_form...]
+2022-09-10 13:21:30,870 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:30,870 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-10 13:21:31,100 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:31,100 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "rgbvn"]
+2022-09-10 13:21:31,331 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:31,332 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-10 13:21:34,291 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:21:34,292 INFO snowflake.connector.connection closed
+2022-09-10 13:21:34,479 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 13:21:40,790 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:21:40] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:21:40,817 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:21:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 13:23:07,715 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 13:23:07,715 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 13:23:08,878 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 13:23:09,083 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:09,083 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."CampusX"]
+2022-09-10 13:23:09,278 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:09,278 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."CampusX"]
+2022-09-10 13:23:09,497 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:09,497 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-10 13:23:09,822 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:09,823 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."CampusX"]
+2022-09-10 13:23:10,018 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:10,018 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 13:23:10,258 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:10,261 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 13:23:11,343 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:13,128 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "ettlf" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 13:23:13,362 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:13,362 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"uvljq"', file_form...]
+2022-09-10 13:23:13,818 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:13,819 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "CampusX"."video_detail" ("title" TEXT, "thumbnail" ...]
+2022-09-10 13:23:14,119 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:14,119 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "ettlf"]
+2022-09-10 13:23:14,523 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:14,523 INFO snowflake.connector.cursor query: [COPY INTO "CampusX"."video_detail" /* Python:snowflake.connector.pandas_tools.wr...]
+2022-09-10 13:23:18,380 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:18,380 INFO snowflake.connector.connection closed
+2022-09-10 13:23:18,590 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 13:23:20,472 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-10 13:23:20,473 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-10 13:23:21,846 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-10 13:23:22,029 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:22,029 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."CampusX"]
+2022-09-10 13:23:22,224 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:22,224 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."CampusX"]
+2022-09-10 13:23:22,428 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:22,428 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-10 13:23:22,627 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:22,628 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."CampusX"]
+2022-09-10 13:23:22,814 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:22,814 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-10 13:23:23,123 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:23,127 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-10 13:23:25,783 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:27,547 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "cvspk" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-10 13:23:27,739 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:27,740 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"imytk"', file_form...]
+2022-09-10 13:23:28,315 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:28,316 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "CampusX"."comment_detail" ("commentor" TEXT, "comme...]
+2022-09-10 13:23:28,575 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:28,575 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "cvspk"]
+2022-09-10 13:23:28,829 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:28,830 INFO snowflake.connector.cursor query: [COPY INTO "CampusX"."comment_detail" /* Python:snowflake.connector.pandas_tools....]
+2022-09-10 13:23:31,895 INFO snowflake.connector.cursor query execution done
+2022-09-10 13:23:31,895 INFO snowflake.connector.connection closed
+2022-09-10 13:23:32,034 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-10 13:23:37,718 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:23:37] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 13:23:37,754 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 13:23:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

@@ -151,13 +151,15 @@ class YoutubeScrapper(configuration):
                     c_box.pop(0)
 
                 self.len_comment.append(len(c_box))
+                if len(c_box)>0:
+                    for i in range(0, len(c_box)):
+                        self.normal_commenter.append(self.commenter(c_box[i]))
+                        self.comments.append(self.comment_scrape(c_box[i]))
+                else:
+                    continue
 
-                for i in range(0, len(c_box)):
-                    self.normal_commenter.append(self.commenter(c_box[i]))
-                    self.comments.append(self.comment_scrape(c_box[i]))
-
-                driver.switch_to.new_window("tab")
-                #driver.quit()
+                #driver.switch_to.new_window("tab")
+                #driver.close()
         except Exception as e:
             logging.info(str(e))
 
