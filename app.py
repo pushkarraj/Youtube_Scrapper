@@ -8,7 +8,7 @@ import pandas as pd
 app = Flask(__name__)  # initialising the flask
 
 
-@app.route('/', methods=['GET','POST']) # To render Homepage
+@app.route('/', methods=['GET']) # To render Homepage
 @cross_origin()
 def home_page():
     return render_template('index.html')

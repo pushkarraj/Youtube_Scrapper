@@ -170,15 +170,15 @@ class YoutubeScrapper(configuration):
             {'title': self.title, 'thumbnail': self.nail, 'video_link': self.vlink, 'views': self.views,
              'likes': self.likes,'no_comments':self.len_comment})
         df.to_csv(target_folder+"/"+self.ch_name+"_Video_Detail.csv")
-        snowflakes(df, 'video_detail',self.ch_name)  # not double quotes
-        mongo_db_datawriter("Youtube",self.ch_name+'_video_detail',df)
+        #snowflakes(df, 'video_detail',self.ch_name)  # not double quotes
+        #mongo_db_datawriter("Youtube",self.ch_name+'_video_detail',df)
 
         df1 = pd.DataFrame(zip(self.normal_commenter, self.comments), columns=['commentor', "comment"])
         df1.to_csv(target_folder+"/"+self.ch_name+"_Comment_Detail.csv")
-        snowflakes(df1, 'comment_detail',self.ch_name)  # not double quotes
-        mongo_db_datawriter("Youtube", self.ch_name+"_comment_detail", df1)
+        #snowflakes(df1, 'comment_detail',self.ch_name)  # not double quotes
+        #mongo_db_datawriter("Youtube", self.ch_name+"_comment_detail", df1)
 
-        mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
+        #mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
 
         print("Video,Thumbanail & Comment Details generated as CSV and uploaded on DB")
 
