@@ -104,3 +104,47 @@ Backtrace:
 2022-09-10 11:34:08,160 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:34:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-09-10 11:43:14,020 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:43:14] "POST /scrap HTTP/1.1" 200 -
 2022-09-10 11:43:14,049 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 11:43:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 12:21:04,133 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:21:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 12:21:04,136 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:21:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 12:21:23,163 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:21:23] "POST /scrap HTTP/1.1" 200 -
+2022-09-10 12:21:23,191 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-10 12:24:05,302 INFO root Likes not Found
+2022-09-10 12:24:05,304 ERROR root argument of type 'NoneType' is not iterable
+2022-09-10 12:24:15,720 INFO root Message: chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007F78B3+2193587]
+	Ordinal0 [0x00790681+1771137]
+	Ordinal0 [0x006A4070+802928]
+	Ordinal0 [0x00699AB2+760498]
+	Ordinal0 [0x0068CEAF+708271]
+	Ordinal0 [0x00691142+725314]
+	Ordinal0 [0x006955C9+742857]
+	Ordinal0 [0x006A5500+808192]
+	Ordinal0 [0x006FD2C2+1168066]
+	Ordinal0 [0x006ED5C6+1103302]
+	Ordinal0 [0x006C77E0+948192]
+	Ordinal0 [0x006C86E6+952038]
+	GetHandleVerifier [0x00AA0CB2+2738370]
+	GetHandleVerifier [0x00A921B8+2678216]
+	GetHandleVerifier [0x008817AA+512954]
+	GetHandleVerifier [0x00880856+509030]
+	Ordinal0 [0x0079743B+1799227]
+	Ordinal0 [0x0079BB68+1817448]
+	Ordinal0 [0x0079BC55+1817685]
+	Ordinal0 [0x007A5230+1856048]
+	BaseThreadInitThunk [0x760C6739+25]
+	RtlGetFullPathName_UEx [0x772F90AF+1215]
+	RtlGetFullPathName_UEx [0x772F907D+1165]
+
+2022-09-10 12:24:40,211 INFO root Likes could not be scrapped
+2022-09-10 12:24:46,427 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6/url
+2022-09-10 12:24:50,479 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF4190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6/url
+2022-09-10 12:24:54,549 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF4520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6/url
+2022-09-10 12:24:58,642 INFO root HTTPConnectionPool(host='localhost', port=55221): Max retries exceeded with url: /session/e692523ce601e6f7b1c0e73c393253a6/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF46A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2022-09-10 12:25:02,728 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF48E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6
+2022-09-10 12:25:06,794 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF49D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6
+2022-09-10 12:25:10,871 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F050EF4B20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e692523ce601e6f7b1c0e73c393253a6
+2022-09-10 12:25:14,947 ERROR root All arrays must be of the same length
+2022-09-10 12:25:14,948 INFO werkzeug 127.0.0.1 - - [10/Sep/2022 12:25:14] "POST /scrap HTTP/1.1" 200 -
