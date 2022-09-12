@@ -162,36 +162,42 @@ class YoutubeScrapper(configuration):
             logging.info(str(e))
 
     def file_db_manage(self):
-        target_folder = os.path.join('./csv_files', '_'.join(self.ch_name.lower().split(' ')))
-        if not os.path.exists(target_folder):
-            os.makedirs(target_folder)
+        try:
+            target_folder = os.path.join('./csv_files', '_'.join(self.ch_name.lower().split(' ')))
+            if not os.path.exists(target_folder):
+                os.makedirs(target_folder)
 
-        df = pd.DataFrame({'title': self.title, 'thumbnail': self.nail, 'video_link': self.vlink, 'views': self.views,'likes': self.likes,'no_comments':self.len_comment})
-        df.to_csv(target_folder+"/"+self.ch_name+"_Video_Detail.csv")
+            df = pd.DataFrame({'title': self.title, 'thumbnail': self.nail, 'video_link': self.vlink, 'views': self.views,'likes': self.likes,'no_comments':self.len_comment})
+            df.to_csv(target_folder+"/"+self.ch_name+"_Video_Detail.csv")
 
-        df1 = pd.DataFrame(zip(self.normal_commenter, self.comments), columns=['commentor', "comment"])
-        df1.to_csv(target_folder+"/"+self.ch_name+"_Comment_Detail.csv")
+            df1 = pd.DataFrame(zip(self.normal_commenter, self.comments), columns=['commentor', "comment"])
+            df1.to_csv(target_folder+"/"+self.ch_name+"_Comment_Detail.csv")
 
-        snowflakes((df, 'video_detail',self.ch_name),(df1, 'comment_detail',self.ch_name))  # not double quotes
-        mongo_db_datawriter(("Youtube",self.ch_name+'_video_detail',df),("Youtube", self.ch_name+"_comment_detail", df1))
+            snowflakes((df, 'video_detail',self.ch_name),(df1, 'comment_detail',self.ch_name))  # not double quotes
+            mongo_db_datawriter(("Youtube",self.ch_name+'_video_detail',df),("Youtube", self.ch_name+"_comment_detail", df1))
 
-        mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
+            mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
 
-        #youtube_dld_upd(self.vlink)
+            #youtube_dld_upd(self.vlink)
 
-        print("Video,Thumbanail & Comment Details generated as CSV and uploaded on DB")
+            print("Video,Thumbanail & Comment Details generated as CSV and uploaded on DB")
+        except Exception as e:
+            logging.info(str(e))
 
     def final_process(self):
-        start_time=time.time()
-        driver = self.driver_init()
-        wait=self.wait_init(driver)
-        self.logger()
-        self.page1_scrape(driver,wait)
-        self.page2_scrape(driver,wait)
-        #driver.quit()
-        self.file_db_manage()
-        time_taken=time.time()-start_time
-        print(time_taken)
+        try:
+            start_time=time.time()
+            driver = self.driver_init()
+            wait=self.wait_init(driver)
+            self.logger()
+            self.page1_scrape(driver,wait)
+            self.page2_scrape(driver,wait)
+            #driver.quit()
+            self.file_db_manage()
+            time_taken=time.time()-start_time
+            print(time_taken)
+        except Exception as e:
+            logging.info(str(e))
 
         return self.vlink, self.nail, self.title,self.likes,self.views,self.normal_commenter, self.comments,self.len_comment
 
