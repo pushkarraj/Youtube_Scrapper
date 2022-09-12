@@ -1003,3 +1003,5 @@ Backtrace:
 2022-09-12 13:43:10,107 INFO snowflake.connector.connection No async queries seem to be running, deleting session
 2022-09-12 13:43:33,044 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:43:33] "POST /scrap HTTP/1.1" 200 -
 2022-09-12 13:43:33,081 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:43:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-12 14:34:13,770 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 14:34:13] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 14:34:13,805 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 14:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
