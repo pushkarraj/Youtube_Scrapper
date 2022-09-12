@@ -63,9 +63,7 @@ class YoutubeScrapper(configuration):
 
     def like_scrapper(self, e):
         try:
-            return e.find_all("yt-formatted-string",
-                              {'class': "style-scope ytd-toggle-button-renderer style-text", 'id': "text"})[0][
-                       "aria-label"][:-6].replace(",", "")
+            return e.find_all("yt-formatted-string",{'class': "style-scope ytd-toggle-button-renderer style-text", 'id': "text"})[0]["aria-label"][:-6].replace(",", "")
         except:
             logging.info("Likes could not be scrapped")
 
@@ -159,7 +157,7 @@ class YoutubeScrapper(configuration):
                     continue
 
                 #driver.switch_to.new_window("tab")
-                #driver.close()
+            driver.quit()
         except Exception as e:
             logging.info(str(e))
 
@@ -179,7 +177,7 @@ class YoutubeScrapper(configuration):
 
         mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
 
-        youtube_dld_upd(self.vlink)
+        #youtube_dld_upd(self.vlink)
 
         print("Video,Thumbanail & Comment Details generated as CSV and uploaded on DB")
 

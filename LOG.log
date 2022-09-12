@@ -619,3 +619,387 @@ Backtrace:
 2022-09-11 19:47:47,113 INFO snowflake.connector.connection No async queries seem to be running, deleting session
 2022-09-11 19:47:54,948 INFO werkzeug 127.0.0.1 - - [11/Sep/2022 19:47:54] "POST /scrap HTTP/1.1" 200 -
 2022-09-11 19:47:54,999 INFO werkzeug 127.0.0.1 - - [11/Sep/2022 19:47:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-12 12:40:39,250 INFO root Likes could not be scrapped
+2022-09-12 12:40:43,674 INFO root Likes could not be scrapped
+2022-09-12 12:40:48,874 INFO root Likes could not be scrapped
+2022-09-12 12:40:54,497 INFO root Likes could not be scrapped
+2022-09-12 12:40:59,210 INFO root Likes could not be scrapped
+2022-09-12 12:41:06,441 INFO root Likes could not be scrapped
+2022-09-12 12:41:12,525 INFO root Likes could not be scrapped
+2022-09-12 12:41:19,848 INFO root Likes could not be scrapped
+2022-09-12 12:41:24,471 INFO root Likes could not be scrapped
+2022-09-12 12:41:31,713 INFO root Likes could not be scrapped
+2022-09-12 12:41:45,923 INFO root Likes could not be scrapped
+2022-09-12 12:41:51,540 INFO root Likes could not be scrapped
+2022-09-12 12:41:56,369 INFO root Likes could not be scrapped
+2022-09-12 12:42:01,130 INFO root Likes could not be scrapped
+2022-09-12 12:42:06,165 INFO root Likes could not be scrapped
+2022-09-12 12:42:11,999 INFO root Likes could not be scrapped
+2022-09-12 12:42:16,790 INFO root Likes could not be scrapped
+2022-09-12 12:42:24,442 INFO root Likes could not be scrapped
+2022-09-12 12:42:31,736 INFO root Likes could not be scrapped
+2022-09-12 12:42:36,486 INFO root Likes could not be scrapped
+2022-09-12 12:42:42,088 INFO root Likes could not be scrapped
+2022-09-12 12:42:47,857 INFO root Likes could not be scrapped
+2022-09-12 12:42:55,384 INFO root Likes could not be scrapped
+2022-09-12 12:43:36,452 INFO root Likes could not be scrapped
+2022-09-12 12:43:43,705 INFO root Likes could not be scrapped
+2022-09-12 12:44:12,325 INFO root Likes could not be scrapped
+2022-09-12 12:44:17,250 INFO root Likes could not be scrapped
+2022-09-12 12:44:23,969 INFO root Likes could not be scrapped
+2022-09-12 12:44:29,537 INFO root Likes could not be scrapped
+2022-09-12 12:44:35,246 INFO root Likes could not be scrapped
+2022-09-12 12:44:41,539 INFO root Likes could not be scrapped
+2022-09-12 12:44:47,417 INFO root Likes could not be scrapped
+2022-09-12 12:44:52,937 INFO root Likes could not be scrapped
+2022-09-12 12:45:00,969 INFO root Likes could not be scrapped
+2022-09-12 12:45:05,614 INFO root Likes could not be scrapped
+2022-09-12 12:45:11,039 INFO root Likes could not be scrapped
+2022-09-12 12:45:15,539 INFO root Likes could not be scrapped
+2022-09-12 12:45:20,481 INFO root Likes could not be scrapped
+2022-09-12 12:45:26,852 INFO root Likes could not be scrapped
+2022-09-12 12:45:32,761 INFO root Likes could not be scrapped
+2022-09-12 12:45:38,694 INFO root Likes could not be scrapped
+2022-09-12 12:45:44,129 INFO root Likes could not be scrapped
+2022-09-12 12:45:50,060 INFO root Likes could not be scrapped
+2022-09-12 12:45:54,308 INFO root Likes could not be scrapped
+2022-09-12 12:45:59,162 INFO root Likes could not be scrapped
+2022-09-12 12:46:03,991 INFO root Likes could not be scrapped
+2022-09-12 12:46:09,745 INFO root Likes could not be scrapped
+2022-09-12 12:46:14,081 INFO root Likes could not be scrapped
+2022-09-12 12:46:19,247 INFO root Likes could not be scrapped
+2022-09-12 12:46:24,909 INFO root Likes could not be scrapped
+2022-09-12 12:46:27,009 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-12 12:46:27,010 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-12 12:46:27,010 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-12 12:46:39,214 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 12:46:39,416 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:39,416 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:39,598 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:39,599 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:39,732 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:39,732 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-12 12:46:40,476 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:40,476 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:40,684 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:40,685 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 12:46:40,868 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:41,017 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 12:46:42,052 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:43,385 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "phqya" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 12:46:43,523 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:43,525 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"yfvxw"', file_form...]
+2022-09-12 12:46:46,150 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:46,159 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-12 12:46:46,317 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:46,317 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "phqya"]
+2022-09-12 12:46:46,463 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:46,464 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-12 12:46:47,718 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:47,719 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 12:46:47,829 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:47,829 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:48,058 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:48,058 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:48,172 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:48,173 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-12 12:46:48,675 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:48,675 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 12:46:48,792 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:48,792 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 12:46:48,965 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:48,986 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 12:46:50,277 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:51,420 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "bllpf" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 12:46:51,722 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:51,723 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"yoprf"', file_form...]
+2022-09-12 12:46:53,984 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:53,985 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-12 12:46:54,143 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:54,144 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "bllpf"]
+2022-09-12 12:46:54,279 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:54,280 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-12 12:46:57,235 INFO snowflake.connector.cursor query execution done
+2022-09-12 12:46:57,235 INFO snowflake.connector.connection closed
+2022-09-12 12:46:57,326 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-12 12:53:53,938 ERROR root IncompleteRead(1048208 bytes read, 8388976 more expected)
+2022-09-12 12:53:53,940 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 12:53:53] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 13:14:22,791 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D2707D520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5032d0941c03de2606b3dfa3ea592225
+2022-09-12 13:14:26,898 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D2707D4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5032d0941c03de2606b3dfa3ea592225
+2022-09-12 13:14:31,004 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D2707D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5032d0941c03de2606b3dfa3ea592225
+2022-09-12 13:14:35,225 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-12 13:14:35,226 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-12 13:14:35,226 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-12 13:14:48,051 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:14:48,191 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:48,192 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:48,345 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:48,345 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:48,504 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:48,505 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-12 13:14:48,921 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:48,921 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:49,048 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:49,048 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:14:49,223 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:49,375 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:14:50,540 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:51,640 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "rmgbh" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:14:51,805 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:51,805 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"smeyh"', file_form...]
+2022-09-12 13:14:54,254 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:54,282 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-12 13:14:54,483 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:54,483 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "rmgbh"]
+2022-09-12 13:14:54,636 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:54,637 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-12 13:14:55,846 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:55,846 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:14:55,969 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:55,970 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:56,086 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:56,086 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:56,213 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:56,213 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-12 13:14:56,933 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:56,933 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:14:57,103 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:57,103 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:14:57,288 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:57,306 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:14:58,398 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:59,582 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "bamlj" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:14:59,731 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:14:59,731 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"vgtiv"', file_form...]
+2022-09-12 13:15:02,261 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:15:02,262 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-12 13:15:02,744 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:15:02,744 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "bamlj"]
+2022-09-12 13:15:02,889 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:15:02,890 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-12 13:15:05,912 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:15:05,912 INFO snowflake.connector.connection closed
+2022-09-12 13:15:06,002 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-12 13:15:26,179 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:15:26] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 13:15:26,762 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:15:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-12 13:23:12,702 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-12 13:23:12,702 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-12 13:23:12,702 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-12 13:23:24,900 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:23:25,042 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:25,042 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:25,182 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:25,182 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:25,322 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:25,322 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-12 13:23:25,844 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:25,844 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:25,983 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:25,983 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:23:26,205 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:26,312 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:23:27,343 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:32,702 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "vivtf" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:23:32,858 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:32,859 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"iwhey"', file_form...]
+2022-09-12 13:23:33,219 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:33,225 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-12 13:23:33,366 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:33,367 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "vivtf"]
+2022-09-12 13:23:33,507 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:33,507 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-12 13:23:34,860 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:34,860 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:23:34,982 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:34,982 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:35,104 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:35,104 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:35,228 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:35,228 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-12 13:23:35,568 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:35,568 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:23:36,091 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:36,091 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:23:36,267 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:36,286 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:23:37,307 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:38,699 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "znqui" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:23:38,889 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:38,890 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"dqtqs"', file_form...]
+2022-09-12 13:23:39,273 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:39,273 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-12 13:23:39,436 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:39,436 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "znqui"]
+2022-09-12 13:23:39,600 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:39,600 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-12 13:23:40,981 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:23:40,981 INFO snowflake.connector.connection closed
+2022-09-12 13:23:41,077 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-12 13:24:00,874 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:24:00] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 13:24:00,910 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:24:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-12 13:25:54,709 INFO root Likes could not be scrapped
+2022-09-12 13:25:58,475 INFO root Likes could not be scrapped
+2022-09-12 13:26:04,161 INFO root Likes could not be scrapped
+2022-09-12 13:26:09,802 INFO root Likes could not be scrapped
+2022-09-12 13:26:15,113 INFO root Likes could not be scrapped
+2022-09-12 13:26:23,011 INFO root Likes could not be scrapped
+2022-09-12 13:26:28,859 INFO root Likes could not be scrapped
+2022-09-12 13:26:36,403 INFO root Likes could not be scrapped
+2022-09-12 13:26:41,228 INFO root Likes could not be scrapped
+2022-09-12 13:26:46,538 INFO root Likes could not be scrapped
+2022-09-12 13:26:59,223 INFO root Likes could not be scrapped
+2022-09-12 13:27:04,997 INFO root Likes could not be scrapped
+2022-09-12 13:27:09,714 INFO root Likes could not be scrapped
+2022-09-12 13:27:14,931 INFO root Likes could not be scrapped
+2022-09-12 13:27:20,144 INFO root Likes could not be scrapped
+2022-09-12 13:27:25,903 INFO root Likes could not be scrapped
+2022-09-12 13:27:33,337 INFO root Likes could not be scrapped
+2022-09-12 13:27:40,913 INFO root Likes could not be scrapped
+2022-09-12 13:27:46,081 INFO root Likes could not be scrapped
+2022-09-12 13:27:51,164 INFO root Likes could not be scrapped
+2022-09-12 13:27:57,654 INFO root Likes could not be scrapped
+2022-09-12 13:28:04,024 INFO root Likes could not be scrapped
+2022-09-12 13:28:11,256 INFO root Likes could not be scrapped
+2022-09-12 13:28:49,272 INFO root Likes could not be scrapped
+2022-09-12 13:28:55,142 INFO root Likes could not be scrapped
+2022-09-12 13:29:19,311 INFO root Likes could not be scrapped
+2022-09-12 13:29:25,887 INFO root Likes could not be scrapped
+2022-09-12 13:29:33,568 INFO root Likes could not be scrapped
+2022-09-12 13:29:40,135 INFO root Likes could not be scrapped
+2022-09-12 13:29:47,977 INFO root Likes could not be scrapped
+2022-09-12 13:29:56,293 INFO root Likes could not be scrapped
+2022-09-12 13:30:04,380 INFO root Likes could not be scrapped
+2022-09-12 13:30:25,468 INFO root Likes could not be scrapped
+2022-09-12 13:30:32,969 INFO root Likes could not be scrapped
+2022-09-12 13:30:37,619 INFO root Likes could not be scrapped
+2022-09-12 13:30:43,007 INFO root Likes could not be scrapped
+2022-09-12 13:30:47,924 INFO root Likes could not be scrapped
+2022-09-12 13:30:52,799 INFO root Likes could not be scrapped
+2022-09-12 13:30:58,692 INFO root Likes could not be scrapped
+2022-09-12 13:31:04,634 INFO root Likes could not be scrapped
+2022-09-12 13:31:10,737 INFO root Likes could not be scrapped
+2022-09-12 13:31:16,310 INFO root Likes could not be scrapped
+2022-09-12 13:31:21,583 INFO root Likes could not be scrapped
+2022-09-12 13:31:26,192 INFO root Likes could not be scrapped
+2022-09-12 13:31:38,707 INFO root Likes could not be scrapped
+2022-09-12 13:31:45,014 INFO root Likes could not be scrapped
+2022-09-12 13:31:51,413 INFO root Likes could not be scrapped
+2022-09-12 13:31:56,849 INFO root Likes could not be scrapped
+2022-09-12 13:32:04,386 INFO root Likes could not be scrapped
+2022-09-12 13:32:10,242 INFO root Likes could not be scrapped
+2022-09-12 13:32:17,231 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019D15CF9430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e73d1ccb8e88c8584074d643a995296b
+2022-09-12 13:32:21,342 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019D15CF9550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e73d1ccb8e88c8584074d643a995296b
+2022-09-12 13:32:25,440 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019D15CF96A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e73d1ccb8e88c8584074d643a995296b
+2022-09-12 13:32:29,641 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-12 13:32:29,642 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-12 13:32:29,642 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-12 13:32:41,972 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:32:42,104 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:42,104 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:42,235 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:42,235 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:42,373 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:42,373 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-12 13:32:42,796 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:42,796 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:42,919 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:42,919 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:32:43,092 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:43,243 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:32:44,386 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:45,844 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "ybswb" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:32:45,990 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:45,990 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"bkevr"', file_form...]
+2022-09-12 13:32:46,346 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:46,359 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-12 13:32:46,508 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:46,508 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "ybswb"]
+2022-09-12 13:32:46,680 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:46,680 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-12 13:32:48,593 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:48,593 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:32:48,721 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:48,721 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:48,838 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:48,838 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:48,961 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:48,961 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-12 13:32:49,251 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:49,251 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:32:49,416 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:49,416 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:32:49,582 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:49,602 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:32:50,955 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:51,515 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "wattp" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:32:51,658 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:51,658 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"cupey"', file_form...]
+2022-09-12 13:32:51,999 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:51,999 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-12 13:32:52,134 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:52,134 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "wattp"]
+2022-09-12 13:32:52,272 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:52,272 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-12 13:32:53,549 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:32:53,549 INFO snowflake.connector.connection closed
+2022-09-12 13:32:53,639 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-12 13:33:11,408 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:33:11] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 13:33:11,692 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-09-12 13:42:31,639 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288CDC63220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe17b87b134378951ae04306131c30d
+2022-09-12 13:42:35,731 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288CDC63490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe17b87b134378951ae04306131c30d
+2022-09-12 13:42:39,838 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288CDC635E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe17b87b134378951ae04306131c30d
+2022-09-12 13:42:43,972 INFO snowflake.connector.connection Snowflake Connector for Python Version: 2.7.12, Python Version: 3.9.13, Platform: Windows-10-10.0.22000-SP0
+2022-09-12 13:42:43,972 INFO snowflake.connector.connection This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-09-12 13:42:43,972 INFO snowflake.connector.connection Setting use_openssl_only mode to False
+2022-09-12 13:42:56,185 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:42:56,332 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:56,333 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:42:56,457 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:56,457 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:42:56,595 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:56,595 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "video_detail"]
+2022-09-12 13:42:56,969 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:56,969 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:42:57,099 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:57,099 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:42:57,274 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:57,452 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:42:58,574 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:59,541 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "jndkm" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:42:59,681 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:42:59,681 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"uxazd"', file_form...]
+2022-09-12 13:43:00,456 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:00,468 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."video_detail" ("title" TEXT, "thumbnai...]
+2022-09-12 13:43:00,610 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:00,610 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "jndkm"]
+2022-09-12 13:43:00,795 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:00,795 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."video_detail" /* Python:snowflake.connector.pandas_tools...]
+2022-09-12 13:43:03,743 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:03,744 INFO snowflake.connector.cursor query: [CREATE DATABASE IF NOT EXISTS YOUTUBE1]
+2022-09-12 13:43:03,984 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:03,984 INFO snowflake.connector.cursor query: [CREATE SCHEMA IF NOT EXISTS YOUTUBE1."Krish Naik"]
+2022-09-12 13:43:04,102 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:04,102 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:43:04,256 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:04,257 INFO snowflake.connector.cursor query: [TRUNCATE TABLE IF EXISTS "comment_detail"]
+2022-09-12 13:43:04,637 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:04,638 INFO snowflake.connector.cursor query: [USE SCHEMA YOUTUBE1."Krish Naik"]
+2022-09-12 13:43:04,767 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:04,767 INFO snowflake.connector.cursor query: [create temporary stage /* Python:snowflake.connector.pandas_tools.write_pandas()...]
+2022-09-12 13:43:05,009 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:05,029 INFO snowflake.connector.cursor query: [PUT /* Python:snowflake.connector.pandas_tools.write_pandas() */ 'file://C:\\Use...]
+2022-09-12 13:43:06,037 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:07,179 INFO snowflake.connector.cursor query: [CREATE FILE FORMAT "brbkf" /* Python:snowflake.connector.pandas_tools.write_pand...]
+2022-09-12 13:43:07,324 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:07,324 INFO snowflake.connector.cursor query: [SELECT COLUMN_NAME, TYPE FROM table(infer_schema(location=>'@"cgrmp"', file_form...]
+2022-09-12 13:43:08,001 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:08,002 INFO snowflake.connector.cursor query: [CREATE  TABLE IF NOT EXISTS "Krish Naik"."comment_detail" ("commentor" TEXT, "co...]
+2022-09-12 13:43:08,221 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:08,221 INFO snowflake.connector.cursor query: [DROP FILE FORMAT IF EXISTS "brbkf"]
+2022-09-12 13:43:08,359 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:08,359 INFO snowflake.connector.cursor query: [COPY INTO "Krish Naik"."comment_detail" /* Python:snowflake.connector.pandas_too...]
+2022-09-12 13:43:10,019 INFO snowflake.connector.cursor query execution done
+2022-09-12 13:43:10,019 INFO snowflake.connector.connection closed
+2022-09-12 13:43:10,107 INFO snowflake.connector.connection No async queries seem to be running, deleting session
+2022-09-12 13:43:33,044 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:43:33] "POST /scrap HTTP/1.1" 200 -
+2022-09-12 13:43:33,081 INFO werkzeug 127.0.0.1 - - [12/Sep/2022 13:43:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

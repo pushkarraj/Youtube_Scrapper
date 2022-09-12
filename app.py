@@ -1,7 +1,7 @@
 import logging
 from youtube_scrapper_test import YoutubeScrapper
 from flask import Flask, render_template, request,jsonify
-from flask_cors import CORS,cross_origin
+from flask_cors import cross_origin
 import pandas as pd
 
 
@@ -20,7 +20,7 @@ def index():
     if request.method == 'POST':
         try:
             driver_loc = ".\chromedriver.exe"
-            n = 9
+            n = 49
             scraper = YoutubeScrapper(url=request.form['content'],n=n,driver_loc=driver_loc)
             scraper.final_process()
             df = pd.DataFrame({'title': scraper.title, 'thumbnail': scraper.nail, 'video_link': scraper.vlink, 'views': scraper.views,'likes': scraper.likes,'no_comments':scraper.len_comment})
