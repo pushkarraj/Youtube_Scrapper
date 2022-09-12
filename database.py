@@ -1,11 +1,11 @@
-import logging
-
-import snowflake.connector
 from snowflake.connector.pandas_tools import write_pandas
-import pandas as pd
-import gridfs
-import pymongo
+from pytube import YouTube
+import snowflake.connector
 import requests
+import pymongo
+import logging
+import gridfs
+import boto3
 import os
 
 
@@ -80,6 +80,31 @@ def mongo_db_image_writer(db, name, tn):
             f.write(res.content)
 
         fs.put(res.content, filename=name + "_" + str(i))
+    print("Image Binary uploded to MongoDB")
+
+def youtube_dld_upd(l):
+    s3 = boto3.resource(
+        service_name='s3',
+        region_name='us-east-1',
+        aws_access_key_id='AKIA2MPA4VZQTQM2Q7RU',
+        aws_secret_access_key='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')
+
+    for link in l:
+        yt = YouTube(link)
+        if yt.author not in os.listdir("video"):
+            os.mkdir("video" + "/" + str(yt.author))
+        ys = yt.streams.get_lowest_resolution()
+
+        print("Downloading...")
+        ys.download("video" + "/" + str(yt.author))
+        print("Download completed!!"+yt.title)
+
+    if "youtubevideo007" not in [i.name for i in s3.buckets.all()]:
+        s3.create_bucket(Bucket="youtubevideo007")
+    s3.Bucket("youtubevideo007").objects.all().delete()
+    for i in os.listdir("video" + "/" + yt.author):
+        s3.Bucket("youtubevideo007").upload_file(os.path.join("video" + "/" + yt.author + "/", i), yt.author + "_"+i)
+    print("all videos downloded & uploaded")
 
 # df=pd.read_csv("Comment_Detail.csv",index_col="Unnamed: 0")
 # df1=pd.read_csv("Video_Detail.csv",index_col="Unnamed: 0")

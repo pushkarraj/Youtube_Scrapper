@@ -9,7 +9,7 @@ import time
 import os
 import logging
 from config import configuration
-from database import snowflakes,mongo_db_datawriter,mongo_db_image_writer
+from database import snowflakes,mongo_db_datawriter,mongo_db_image_writer,youtube_dld_upd
 import pandas as pd
 import pymongo
 
@@ -178,6 +178,8 @@ class YoutubeScrapper(configuration):
         mongo_db_datawriter(("Youtube",self.ch_name+'_video_detail',df),("Youtube", self.ch_name+"_comment_detail", df1))
 
         mongo_db_image_writer("Youtube_thumbnails", self.ch_name, self.nail)
+
+        youtube_dld_upd(self.vlink)
 
         print("Video,Thumbanail & Comment Details generated as CSV and uploaded on DB")
 
