@@ -156,7 +156,7 @@ class YoutubeScrapper(configuration):
                 else:
                     continue
 
-                #driver.switch_to.new_window("tab")
+                driver.switch_to.new_window("tab")
             driver.quit()
         except Exception as e:
             logging.info(str(e))
@@ -192,7 +192,6 @@ class YoutubeScrapper(configuration):
             self.logger()
             self.page1_scrape(driver,wait)
             self.page2_scrape(driver,wait)
-            #driver.quit()
             self.file_db_manage()
             time_taken=time.time()-start_time
             print(time_taken)
