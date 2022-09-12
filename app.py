@@ -20,7 +20,7 @@ def index():
     if request.method == 'POST':
         try:
             driver_loc = ".\chromedriver.exe"
-            n = 2
+            n = 5
             scraper = YoutubeScrapper(url=request.form['content'],n=n,driver_loc=driver_loc)
             scraper.final_process()
             df = pd.DataFrame({'title': scraper.title, 'thumbnail': scraper.nail, 'video_link': scraper.vlink, 'views': scraper.views,'likes': scraper.likes,'no_comments':scraper.len_comment})
