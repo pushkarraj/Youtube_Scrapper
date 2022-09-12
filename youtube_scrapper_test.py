@@ -188,7 +188,7 @@ class YoutubeScrapper(configuration):
         self.logger()
         self.page1_scrape(driver,wait)
         self.page2_scrape(driver,wait)
-        driver.quit()
+        #driver.quit()
         self.file_db_manage()
         time_taken=time.time()-start_time
         print(time_taken)
